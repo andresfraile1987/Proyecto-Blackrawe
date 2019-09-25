@@ -1,0 +1,22 @@
+create database login;
+
+use login;
+
+
+CREATE TABLE usuario (
+id_usu INT NOT NULL AUTO_INCREMENT,
+nombre VARCHAR(20) NULL,
+correo VARCHAR(20) NULL,
+contrasena VARCHAR(30) NULL,
+PRIMARY KEY(id_usu)
+);
+
+
+
+insert into usuario value(null,'jhonny','jhonny@gmail.com','jhonny123');
+
+insert into usuario value(null,'jhonnier','jhonnier@gmail.com','jhonnier123');
+
+insert into usuario value(null,'juan','juan@gmail.com','juan123');
+
+
